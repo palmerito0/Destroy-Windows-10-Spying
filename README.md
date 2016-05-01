@@ -7,23 +7,23 @@
 Features:
   - Remove all spyware modules
   - Remove spying apps
-  - Add to hosts spying domains!
-  - Remove Spying services
+  - Add spying domains to hosts
+  - Remove spying services
   - Remove Windows 10 Metro Apps
-  - Support Windows 7/8/8.1/10 or Server 2008-2012 R2
+  - Supports Windows 7/8/8.1/10 or Server 2008-2012 R2
   - Remove Office 2016 telemetry
   - Open Source!
 
 ## Determination of the system language
-We get the language from the command-line arguments to the function:
+We get the language from the command-line arguments with the function:
 ```c#
 private string _GetLang(IEnumerable<string> args)
 ```
-Next we set language in function:
+Next we set language with the function:
 ```c#
 private void SetLanguage(string currentlang = null)
 ```
-And call function to change the language:
+And call this function to change the language:
 ```c#
 private void ChangeLanguage()
 ```
